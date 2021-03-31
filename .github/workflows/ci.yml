@@ -25,4 +25,4 @@ jobs:
           GIT_COMMITTER_NAME: 'A simple bot'
           GIT_COMMITTER_EMAIL: 'simplesaurus@evanlucas.com'
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release@15 --debug
+        run: npx semantic-release@17 --debug
